@@ -4,11 +4,13 @@ public class Main {
 
         System.out.println("Hello World!");
         System.out.println("Luminita");
-       int addition = 7+8 ;
-       System.out.println(”The addition of 7 an 8 is:”);
-     System.out.println(”addition= ” + addition);
-        int divide = 7/8 ;
-        System.out.println(”divide= ” + divide);
+        int x =7;
+        int y =8;
+       int addition = x + y ;
+       System.out.println(” The addition of ” + x + ” and ”+ y + ” is: ” + addition);
+       System.out.println(” x+y ”);
+        int divide = x:y ;
+        System.out.println(” x:y ”);
     }
 
 }
