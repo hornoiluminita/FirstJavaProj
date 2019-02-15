@@ -41,15 +41,19 @@ public class Main {
         return resultat3;
 
     }
-Fetita alina =new Fetita();
+
+    Fetita alina = new Fetita();
     alina.nume ="Alina";
     alina.greutate=20f;
     alina.varsta=6;
     alina.inaltime=1;
-   Doctor vlad= new Doctor();
-   vlad.nume="Vlad";
-   vlad.greutate=80f;
-   vlad.varsta=36;
+    Doctor vlad = new Doctor();
+    vlad.nume="Vlad";
+    vlad.greutate=80f;
+    vlad.varsta=36;
+}
+Mancare caine =new Mancare();
+
 
 
 }
