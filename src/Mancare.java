@@ -1,5 +1,6 @@
 public class Mancare { String denumire;
-    String cantitate;
+    int cantitate;
     String gust;
+    String denumire;
 
 }
