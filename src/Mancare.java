@@ -1,4 +1,4 @@
-public class Mancare { String denumire;
+public class Mancare {
     int cantitate;
     String gust;
     String denumire;

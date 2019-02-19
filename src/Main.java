@@ -1,18 +1,36 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
-        System.out.println("Luminita");
+        System.out.println("Hello World!");}
+        public String printAString(){
+            String result ="Hello World";
+            return result;
+            System.out.println("Luminita");
+        public String printAString(){
+            String result = "Luminita";
+            return result;
+
         int x = 7;
         int y = 8;
         int addition = x + y;
         System.out.println(" The addition of " + x + " and " + y + "is: " + addition);
         System.out.println("x+y ");
+        public int addition (){
+            int result = x+y;
+            return result;
+        }
         int divide = x / y;
-        System.out.println(" x/y ");
+        System.out.println(" x/y ");{
+        public int divide ()
+            int result = x/y;
+            return result;}
 
-        int res = scadere(2, 3);
+
+
+            int res = scadere(2, 3);
         System.out.println(res);
 
         int res2 = inmultire(2, 3);
@@ -21,7 +39,9 @@ public class Main {
 
         int res3 = impartire(2, 3);
         System.out.println(res3);
-    }
+
+
+        }
 
     public static int scadere(int primulnumar, int aldoileanumar) {
         int resultat = primulnumar - aldoileanumar;
@@ -41,42 +61,42 @@ public class Main {
         return resultat3;
 
     }
+    Dog rex = new Dog;{
+        rex.nume = "Rex";
+        rex.culoare="Rosu";
+        rex.greutate=3.4f;
+        rex.rasa="Bichon";
+        rex.varsta="3";
+    }
+    Fetita alina = new Fetita();{
 
-    Fetita alina = new Fetita();
     alina.nume ="Alina";
     alina.greutate=20f;
     alina.varsta=6;
-    alina.inaltime=1;
-    Doctor vlad = new Doctor();
+    alina.inaltime=1; }
+    Doctor vlad = new Doctor();{
     vlad.nume="Vlad";
     vlad.greutate=80f;
     vlad.varsta=36;
     vlad.experienta=10;
 }
 
-    Mancare = new Mancare();
-    mancare.denumire = " Royal Canin "
-    mancare.cantitate = 1;
-    mancare.gust = " dulce ";
+    Mancare mancare = new Mancare();{
 
+        mancare.denumire = " Royal Canin ";
+        mancare.cantitate = 1;
+        mancare.gust = " dulce ";
 
-Mancare caine =new Mancare();
+    }
 
-
-
-public class test {
-   import java.util Scanner;
-
-    public static void main (String [] args);
-
-    {
+    public static void main (String [] args);{
         java.util.Scanner scan = new Scanner(System.in);
         System.out.println("Enter the first number:");
         int num1 = scan.nextInt();
         System.out.println("Enter the second number:");
         int num2 = scan.nextInt();
         int x = scan.nextInt();
-        System.out.println("num1 + "x" + num2 " = " num1 + num2");
+        System.out.println("num1 + "x" + num2 " = " num1*num2");}
 
         public static void main (String[]args){
         System.out.print("     J        A       V     V       A       \n");
@@ -84,20 +104,20 @@ public class test {
         System.out.print(" J   J      AAAAA       V V       AAAAA     \n");
         System.out.print("  J J      A     A       V       A     A    \n");
     }
-        public static void main(String[] args)
-        {
-                import java.util.Scanner;
-            Scanner in = new Scanner(System.in);
-            System.out.print("Input the first number: ");
-            double x = in.nextDouble();
-            System.out.print("Input the second number: ");
-            double y = in.nextDouble();
-            System.out.print("Input the third number: ");
-            double z = in.nextDouble();
-            System.out.print("The average value is " + average(x, y, z)+"\n" );
-        }
-        public static double average(double x, double y, double z)
-        {
+
+        public static void main(String[] args);
+
+    {
+        java.util.Scanner scan = new Scanner(System.in);
+        System.out.print("Input the first number: ");
+        double x = in.nextDouble();
+        System.out.print("Input the second number: ");
+        double y = in.nextDouble();
+        System.out.print("Input the third number: ");
+        double z = in.nextDouble();
+        System.out.print("The average value is " + average(x, y, z) + "\n");}
+        public static double average ( double x, double y, double z){
+
             return (x + y + z) / 3;
         }
         public static void main(String[] args);
