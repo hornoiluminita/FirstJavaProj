@@ -224,6 +224,14 @@ public class Main {
                         System.out.println("Got to try some more");
 
                     }
-
+                    public  void checkint(){
+                        int x = 7;
+                        int y = 2;
+                        int z = 8;
+                        if (x >= y) {
+                            System.out.println("x");
+                        } else if (x <= y) {
+                            System.out.println("x");
+                        }
 }
 
