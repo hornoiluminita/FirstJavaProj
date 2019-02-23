@@ -213,11 +213,17 @@ public class Main {
                 System.out.println("x e mai mic");
             } else if (x == y) {
                 System.out.println("x este egal cu y");
-            }else if (x>y)(
+            }else if (x>y){
+                {
                     System.out.println("x este mai mare");
-            )
+                }
+                public static void checkText(){
+                if text ="FastTrack" {
+                        System.out.println("Learning text xomparison");
+                    }else{
+                        System.out.println("Got to try some more");
 
-
+                    }
 
 }
 
