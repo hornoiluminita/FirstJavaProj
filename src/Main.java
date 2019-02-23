@@ -241,9 +241,9 @@ public class Main {
                             String text = text;
                             String text ="FastTrack";
                             if (number <= 3) {
-                                System.out.println("FastTrack"+"number");
+                                System.out.println("FastTrack\n"+"number");
                             } else if (number>= 4) {
-                                System.out.println("4"+"Hello");
+                                System.out.println("number\n"+"Hello");
                             }
                         }
 }
