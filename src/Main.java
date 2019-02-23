@@ -225,117 +225,131 @@ public class Main {
                     {
                         System.out.println("x este mai mare");
                     }
-                    public static void checkText () {
-                        if text = "FastTrack" {
-                            System.out.println("Learning text xomparison");
+                  public static void checkText () {
+                      if text = "FastTrack" {
+                          System.out.println("Learning text xomparison");
                         }else{
-                            System.out.println("Got to try some more");
+                          System.out.println("Got to try some more");
 
                         }
-                        public void checkint () {
-                            int x = 7;
-                            int y = 2;
-                            int z = 8;
-                            if (x >= y) {
-                                System.out.println("x");
-                            } else if (x <= y) {
-                                System.out.println("x");
-                            }
-                            public void checkinttext () {
-                            }
-                            int x = 3;
-                            int y = 4;
-                            String number = number;
-                            String text = text;
-                            String text = "FastTrack";
-                            if (number <= 3) {
-                                System.out.println("FastTrack\n" + "number");
-                            } else if (number >= 4) {
-                                System.out.println("number\n" + "Hello");
-                            }
-                            public void checkcondition () {
-                                int x = 7;
-                                if ((x > 8) && (x = 6)) {
-                                    System.out.println("The amount of snow this winter was 3cm" + "x");
-                                } else
-                                    System.out.println("The forecast snow is 5 cm");
+                  public void checkint () {
+                     int x = 7;
+                     int y = 2;
+                     int z = 8;
+                     if (x >= y) {
+                  System.out.println("x");
+                     } else if (x <= y) {
+                     }System.out.println("x");
+                      }
+                      public void checkinttext () {
+                      }
+                      int x = 3;
+                      int y = 4;
+                      String number = number;
+                      String text = text;
+                      String text = "FastTrack";
+                      if (number <= 3) {
+                      System.out.println("FastTrack\n" + "number");
+                      } else if (number >= 4) {
+                      System.out.println("number\n" + "Hello");
+                      public void checkcondition ()
+                      {
+                       int x = 7;
+                       if ((x > 8) && (x = 6)) {
+                       System.out.println("The amount of snow this winter was 3cm" + "x");
+                              } else
+                                  System.out.println("The forecast snow is 5 cm");
                             }
                             public void checknumbers () {
                                 int x = 10;
                                 if ((x > 3) %%(x != 4)){
-                                    System.out.println("The number is greater than 3 and not equal to 4");
-                                } else if (x == 4) {
-                                    System.out.println("The number is equal to 4");
+                   System.out.println("The number is greater than 3 and not equal to 4");
+                 } else if (x == 4) {
+                          System.out.println("The number is equal to 4");
                                 } else if (x < 3) {
-                                    System.out.println("The number is lower than 3");
+                   System.out.println("The number is lower than 3");
                                 }
                             }
-                            public void switchCaseMethod () {
-                                System.out.println("Introdu un numar");
-                                Scanner scan = new Scanner(System.in);
-                                int number = scan.nextInt();
-                                switch (number) {
-                                    case 1:
-                                        System.out.println("1");
-                                    case 2:
-                                        System.out.println("2");
-                                    case 3:
-                                        System.out.println("3");
-                                    case 4:
-                                        System.out.println("4");
-                                    case 5:
-                                        System.out.println("5");
-                                    case 6:
-                                        System.out.println("6");
-                                    case 7:
-                                        System.out.println("7");
-                                    case 8:
-                                        System.out.println("8");
-                                    case 9:
-                                        System.out.println("9");
-                                    case 10:
-                                        System.out.println("10");
-                                    default:
-                                        System.out.println("Not allowed");
-                                        break;
+                   public void switchCaseMethod () {
+                    System.out.println("Introdu un numar");
+                    Scanner scan = new Scanner(System.in);
+                    int number = scan.nextInt();
+                    switch (number) {
+                          case 1:
+                            System.out.println("1");
+                          case 2:
+                             System.out.println("2");
+                          case 3:
+                             System.out.println("3");
+                          case 4:
+                           System.out.println("4");
+                          case 5:
+                           System.out.println("5");
+                          case 6:
+                           System.out.println("6");
+                          case 7:
+                           System.out.println("7");
+                          case 8:
+                           System.out.println("8");
+                          case 9:
+                           System.out.println("9");
+                          case 10:
+                           System.out.println("10");
+                              default:
+                           System.out.println("Not allowed");
+                                   break;
                                 }
-                                public void evennumber () {
-                                    System.out.println("Introdu un numar");
-                                    Scanner in = new Scanner(System.in);
-                                    System.out.print("Input a number: ");
-                                    int n = in.nextInt();
-                                    if (n % 2 == 0) {
-                                        System.out.println("The number is an even number");
+                      public void evennumber () {
+                          System.out.println("Introdu un numar");
+                           Scanner in = new Scanner(System.in);
+                           System.out.print("Input a number: ");
+                         int n = in.nextInt();
+                         if (n % 2 == 0) {
+                           System.out.println("The number is an even number");
                                     }
-                                    public void age () {
-                                        int age;
-                                        Scanner in = new Scanner(System.in);
-                                        System.out.println("Enter your age : ");
-                                        age = in.nextInt();
-                                        if (age >= 18)
-                                    } System.out.println("The person is eligible for voting");
+                         public void age () {
+                             int age;
+                             Scanner in = new Scanner(System.in);
+                             System.out.println("Enter your age : ");
+                             age = in.nextInt();
+                             if (age >= 18)
+                         } System.out.println("The person is eligible for voting");
 
-                                    public void numbers() {
-                                        int x, y, z;
-                                        System.out.println("Enter three numbers");
-                                        Scanner in = new Scanner(System.in);
+                         public void numbers() {
+                             int x, y, z;
+                             System.out.println("Enter three numbers");
+                             Scanner in = new Scanner(System.in);
 
-                                        x = in.nextInt();
-                                        y = in.nextInt();
-                                        z = in.nextInt();
+                             x = in.nextInt();
+                             y = in.nextInt();
+                             z = in.nextInt();
 
-                                        if (x > y && x > z)
-                                            System.out.println("First number is the greatest.");
-                                        else if (y > x && y > z)
-                                            System.out.println("Second number is the greatest.");
-                                        else if (z > x && z > y)
-                                            System.out.println("Third number is the greatest.");
+                             if (x > y && x > z)
+                                 System.out.println("First number is the greatest.");
+                             else if (y > x && y > z)
+                                 System.out.println("Second number is the greatest.");
+                             else if (z > x && z > y)
+                                 System.out.println("Third number is the greatest.");
                           }
                                 }
 
 
-                            }
+              }
+                          public void readnumber () {
 
+                          Scanner scan = new Scanner(System.in);
+                          System.out.print("Enter any number: ");
+                          int num = scan.nextInt();
+                          scan.close();
+                          System.out.println("The number entered by user: "+num);
+                          }
+                          public void squarenumber(){
+                            Scanner sc=new Scanner(System.in);
+                            int x;
+                            System.out.print("Enter an integer number: ");
+                             x = sc.nextInt();
+                            int square = x*x;
+                            System.out.println("Square of  x  is:");
                             }
 
 
