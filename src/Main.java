@@ -245,7 +245,16 @@ public class Main {
                             } else if (number>= 4) {
                                 System.out.println("number\n"+"Hello");
                             }
+                        public void checkcondition(){
+                            int x = 7;
+                            if ((x > 8 ) && (x = 6 )){
+                                System.out.println("The amount of snow this winter was 3cm"+"x");
+                            } else
+                                System.out.println("The forecast snow is 5 cm");
+                            }
+
                         }
+
 }
 
 
