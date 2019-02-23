@@ -233,5 +233,19 @@ public class Main {
                         } else if (x <= y) {
                             System.out.println("x");
                         }
+                        public  void checkinttext(){
+                        }
+                            int x = 3;
+                            int y = 4;
+                            String number =number;
+                            String text = text;
+                            String text ="FastTrack";
+                            if (number <= 3) {
+                                System.out.println("FastTrack"+"number");
+                            } else if (number>= 4) {
+                                System.out.println("4"+"Hello");
+                            }
+                        }
 }
+
 
