@@ -252,8 +252,19 @@ public class Main {
                             } else
                                 System.out.println("The forecast snow is 5 cm");
                             }
-
+                        public  void checknumbers(){
+                            int x = 10;
+                            if ((x >3) %% (x != 4 )) {
+                                System.out.println("The number is greater than 3 and not equal to 4");
+                            } else if (x == 4) {
+                                System.out.println("The number is equal to 4");
+                            } else if (x < 3) {
+                                System.out.println("The number is lower than 3");
+                            }
                         }
+
+
+                    }
 
 }
 
