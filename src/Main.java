@@ -206,5 +206,18 @@ public class Main {
 
         scanner.close();
     }
+    public static void checkNumber(){
+            int x = 10;
+            int y = 3;
+            if (x<y) {
+                System.out.println("x e mai mic");
+            } else if (x == y) {
+                System.out.println("x este egal cu y");
+            }else if (x>y)(
+                    System.out.println("x este mai mare");
+            )
+
+
+
 }
 
