@@ -3,13 +3,12 @@ public class Fetita {
     float greutate;
     String nume;
     float inaltime;
-    public void vorbeste(){
-        System.out.println("Fetita vorbeste cu cainele");
+    public void vorbeste(){ System.out.println("Fetita vorbeste cu cainele");
     }
-    public void se joaca (){
+    public void sejoaca (){
         System.out.println("Fetita se joaca cu Rex");
     }
-    piblic void adopta (){
+    public void adopta (){
         System.out.println("Fetita il adopta pe Rex");
     }
 }
