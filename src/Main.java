@@ -46,23 +46,6 @@ public class Main {
 
         }
 
-        public static int scadere ( int primulnumar, int aldoileanumar){
-            int resultat = primulnumar - aldoileanumar;
-            return resultat;
-        }
-
-        public static int inmultire ( int primulnumar, int aldoileanumar){
-
-            int resultat2 = primulnumar * aldoileanumar;
-            return resultat2;
-        }
-
-
-        public static int impartire ( int primulnumar, int aldoileanumar){
-
-            int resultat3 = primulnumar / aldoileanumar;
-            return resultat3;
-
         }
         Dog rex = new Dog; {
             rex.nume = "Rex";
@@ -70,21 +53,21 @@ public class Main {
             rex.greutate = 3.4f;
             rex.rasa = "Bichon";
             rex.varsta = "3";
-        }
-        Fetita alina = new Fetita();
-        {
+            Fetita alina = new Fetita();
+            {
 
-            alina.nume = "Alina";
-            alina.greutate = 20f;
-            alina.varsta = 6;
-            alina.inaltime = 1;
-        }
-        Doctor vlad = new Doctor();
-        {
-            vlad.nume = "Vlad";
-            vlad.greutate = 80f;
-            vlad.varsta = 36;
-            vlad.experienta = 10;
+                alina.nume = "Alina";
+                alina.greutate = 20f;
+                alina.varsta = 6;
+                alina.inaltime = 1;
+            }
+            Doctor vlad = new Doctor();
+            {
+                vlad.nume = "Vlad";
+                vlad.greutate = 80f;
+                vlad.varsta = 36;
+                vlad.experienta = "10";
+
         }
 
         Mancare mancare = new Mancare();
@@ -93,12 +76,30 @@ public class Main {
             mancare.denumire = " Royal Canin ";
             mancare.cantitate = 1;
             mancare.gust = " dulce ";
-
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter the first number:");
+            int num1 = scan.nextInt();
+            System.out.println("Enter the second number:");
+            int num2 = scan.nextInt();
+            int x = scan.nextInt();
+            System.out.println("num1 + "+ x +" + num2 num1+ num2");
         }
+            public static int scadere ( int primulnumar, int aldoileanumar){
+                int resultat = primulnumar - aldoileanumar;
+                return resultat;
+            }
 
-        public static void main (String[]args);
-        {
-            java.util.Scanner scan = new Scanner(System.in);
+            public static int inmultire ( int primulnumar, int aldoileanumar){
+
+                int resultat2 = primulnumar * aldoileanumar;
+                return resultat2;
+            }
+
+
+            public static int impartire ( int primulnumar, int aldoileanumar){
+
+                int resultat3 = primulnumar / aldoileanumar;
+
             System.out.println("Enter the first number:");
             int num1 = scan.nextInt();
             System.out.println("Enter the second number:");
