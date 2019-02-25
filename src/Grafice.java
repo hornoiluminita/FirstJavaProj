@@ -6,7 +6,7 @@ public class Grafice {
         public String printAString () {
             String result = "Luminita";
             return result;
-            public static void printJava () {
+            public  void printJava () {
                 System.out.print("     J        A       V     V       A       \n");
                 System.out.print("     J       A A       V   V       A A      \n");
                 System.out.print(" J   J      AAAAA       V V       AAAAA     \n");

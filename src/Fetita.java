@@ -6,9 +6,9 @@ public class Fetita {
     public void vorbeste(){ System.out.println("Fetita vorbeste cu cainele");
     }
     public void sejoaca (){
-        System.out.println("Fetita se joaca cu Rex");
+        System.out.println("Fetita se joaca cu Dog");
     }
     public void adopta (){
-        System.out.println("Fetita il adopta pe Rex");
+        System.out.println("Fetita il adopta pe Dog");
     }
 }

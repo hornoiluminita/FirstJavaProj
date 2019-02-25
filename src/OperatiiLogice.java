@@ -1,6 +1,6 @@
 public class OperatiiLogice {
     Dog rex = new Dog; {
-        rex.nume = "Rex";
+        rex.nume = "Dog";
         rex.culoare = "Rosu";
         rex.greutate = 3.4f;
         rex.rasa = "Bichon";

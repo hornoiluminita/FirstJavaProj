@@ -38,23 +38,23 @@ public class Calculator {
                 int x = scan.nextInt();
                 System.out.println("num1 + "+ x +" + num2 num1+ num2");
                 }
-public static int scadere ( int primulnumar, int aldoileanumar){
+public  int scadere ( int primulnumar, int aldoileanumar){
         int resultat = primulnumar - aldoileanumar;
         return resultat;
         }
 
-public static int inmultire ( int primulnumar, int aldoileanumar){
+public  int inmultire ( int primulnumar, int aldoileanumar){
 
         int resultat2 = primulnumar * aldoileanumar;
         return resultat2;
         }
 
 
-public static int impartire ( int primulnumar, int aldoileanumar){
+public int impartire ( int primulnumar, int aldoileanumar){
         int resultat3 = primulnumar / aldoileanumar;
         }
 
-public static void averageThreeNumbers(){
+public  void averageThreeNumbers(){
         java.util.Scanner scan = new Scanner(System.in);
         System.out.print("Input the first number: ");
         double x = in.nextDouble();
@@ -100,7 +100,7 @@ public static void averageThreeNumbers(){
         double z = in.nextDouble();
         System.out.print("The average value is " + average(x, y, z) + "\n");
         }
-public static double average ( double x, double y, double z) {
+public  double average ( double x, double y, double z) {
 
         return (x + y + z) / 3;
         }

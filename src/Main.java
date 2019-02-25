@@ -4,7 +4,12 @@ public class Main {
 
    public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+        Calculator calc. = new Calculator ();
+        OperatiiLogice op = new OperatiiLogice();
+        Dog rex = new Dog () ;
+        rex.setNume("Rex");
+        rex.setNume("Grivei");
+       System.out.println(rex.getNume());
     }
         public static void checkNumber () {
             int x = 10;
