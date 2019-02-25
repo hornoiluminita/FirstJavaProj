@@ -6,7 +6,7 @@ public class Main {
 
        Calculator calc. =new Calculator();
        OperatiiLogice op = new OperatiiLogice();
-       Dog rex = new Dog();
+       Dog rex = new Dog();{
        rex.setNume("Rex");
        rex.setNume("Grivei");
        System.out.println(rex.getNume());
@@ -44,6 +44,19 @@ public class Main {
         vlad.setExperienta("10");
         System.out.println(vlad.getExperienta());
     }
+        Mancare royal = new Mancare ();{
+         royal.setDenumire("Royal");
+           System.out.println(royal.getDenumire());
+        royal.setCantitate("1");
+           System.out.println(royal.getCantitate());
+        royal.setGust("dulce");
+           System.out.println(royal.getGust());
+        royal.setMiros"Intepator";
+           System.out.println(royal.getMiros());
+        royal.setCuloare("maro");
+           System.out.println(royal.getCuloare());
+
+       }
         public static void checkNumber () {
             int x = 10;
             int y = 3;
