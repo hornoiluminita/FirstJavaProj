@@ -4,13 +4,13 @@ public class Main {
 
    public static void main(String[] args) {
 
-        Calculator calc. = new Calculator ();
-        OperatiiLogice op = new OperatiiLogice();
-        Dog rex = new Dog () ;
-        rex.setNume("Rex");
-        rex.setNume("Grivei");
+       Calculator calc. =new Calculator();
+       OperatiiLogice op = new OperatiiLogice();
+       Dog rex = new Dog();
+       rex.setNume("Rex");
+       rex.setNume("Grivei");
        System.out.println(rex.getNume());
-        rex.setVarsta("3");
+       rex.setVarsta("3");
        System.out.println(rex.getVarsta());
        rex.setGreutate("15.5");
        System.out.println(rex.getGreutate());
@@ -18,7 +18,8 @@ public class Main {
        System.out.println(rex.getRasa());
        rex.setCuloare("Negru");
        System.out.println(rex.getCuloare);
-       Fetita alina = new Fetita ();
+   }
+       Fetita alina = new Fetita ();{
        alina.setNume("Alina");
        System.out.println(alina.getNume());
        alina.setGreutate("20f");
@@ -29,8 +30,20 @@ public class Main {
        System.out.println(alina.getInaltime());
        alina.setNationalitate("Romana");
        System.out.println(alina.getNationalitate());
-   }
 
+   }
+       Doctor vlad = new Doctor (); {
+       vlad.setNume("Vlad");
+        System.out.println(vlad.getNume());
+       vlad.setGreutate("75");
+        System.out.println(vlad.getGreutate());
+        vlad.setVarsta("36");
+        System.out.println(vlad.getVarsta());
+        vlad.setInaltime("1.80f");
+        System.out.println(vlad.getInaltime());
+        vlad.setExperienta("10");
+        System.out.println(vlad.getExperienta());
+    }
         public static void checkNumber () {
             int x = 10;
             int y = 3;
