@@ -10,7 +10,27 @@ public class Main {
         rex.setNume("Rex");
         rex.setNume("Grivei");
        System.out.println(rex.getNume());
-    }
+        rex.setVarsta("3");
+       System.out.println(rex.getVarsta());
+       rex.setGreutate("15.5");
+       System.out.println(rex.getGreutate());
+       rex.setRasa("DOBERMAN");
+       System.out.println(rex.getRasa());
+       rex.setCuloare("Negru");
+       System.out.println(rex.getCuloare);
+       Fetita alina = new Fetita ();
+       alina.setNume("Alina");
+       System.out.println(alina.getNume());
+       alina.setGreutate("20f");
+       System.out.println(alina.getGreutate());
+       alina.setVarsta("6");
+       System.out.println(alina.getVarsta());
+       alina.setInaltime("1");
+       System.out.println(alina.getInaltime());
+       alina.setNationalitate("Romana");
+       System.out.println(alina.getNationalitate());
+   }
+
         public static void checkNumber () {
             int x = 10;
             int y = 3;
