@@ -39,7 +39,34 @@ public class Homework {
                 }
                 System.out.println();
             }
-        }
+            public static void sum () {
+                int sum = 0; // store the accumulated sum, init to 0
+                double average; // average in double
+                int lowerbound = 1; // the lower bound to sum
+                double upperbound = 100; // the upper bound to sum
+                for (int number = lowerbound; number <= upperbound; ++number) {
+                    sum += number; // same as "sum = sum + number"
+                }
+                // Compute average in double.
+                average = sum / upperbound;
+                System.out.println("The sum = " + sum);
+                System.out.println("The average = " + average);
+            }
+            public static void sum () {
+                int sum = 0; // store the accumulated sum, init to 0
+                double average; // average in double
+                int lowerbound = 1; // the lower bound to sum
+                double upperbound = 100; // the upper bound to sum
+                while-do (int number = lowerbound; number <= upperbound; ++number) {
+                    sum += number; // same as "sum = sum + number"
+                }
+                // Compute average in double.
+                average = sum / upperbound;
+                System.out.println("The sum = " + sum);
+                System.out.println("The average = " + average);
+            }
+
+
 
 
 
