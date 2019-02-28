@@ -57,7 +57,10 @@ public class Homework {
                 double average; // average in double
                 int lowerbound = 1; // the lower bound to sum
                 double upperbound = 100; // the upper bound to sum
-                while-do (int number = lowerbound; number <= upperbound; ++number) {
+                while{
+                    int number = lowerbound; number <= upperbound; ++number)
+                do {
+
                     sum += number; // same as "sum = sum + number"
                 }
                 // Compute average in double.
@@ -65,9 +68,45 @@ public class Homework {
                 System.out.println("The sum = " + sum);
                 System.out.println("The average = " + average);
             }
+                public static void sum () {
+                    int sum = 0; // store the accumulated sum, init to 0
+                    double average; // average in double
+                    int lowerbound = 1; // the lower bound to sum
+                    double upperbound = 100; // the upper bound to sum
+            do {
+                sum += number;
+                while{
+                    int number = lowerbound; number <= upperbound; ++number)
+                    average = sum / upperbound;
+                    System.out.println("The sum = " + sum);
+                    System.out.println("The average = " + average);
+                }
+            }
+                    int count = 0;
+                    for (...; ...; ...) {17.......18.++count;
+                }
+                    public static void main(String[] args)
+                    {
+                        int upperBoundNumber = 100;
+
+                        if (upperBoundNumber <= 0) {
+                            System.out.println("Error: upperbound less than 0!");
+                            return;
+                        }
+
+                        SumAndAverage aSumAndAverage = new SumAndAverage();
+                        aSumAndAverage.printSumNumbersUsingForLoop(upperBoundNumber);
+                        aSumAndAverage.printSumNumbersUsingDoWhileLoop(upperBoundNumber);
+                        aSumAndAverage.printSumNumbersUsingWhileDoLoop(upperBoundNumber);
+                        aSumAndAverage.printSumNumbersFromRange(111, 8899);
+                        aSumAndAverage.printSumOddNumbers(1, 100);
+                        aSumAndAverage.printSumNumbersDivisibleBySeven(1, 100);
+                        aSumAndAverage.printSumSquares(1, 100);
+                    }
 
 
-
-
+            }
+        }
+    }
 
     }
