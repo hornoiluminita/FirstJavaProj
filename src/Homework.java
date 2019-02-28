@@ -103,7 +103,7 @@ public class Homework {
                         aSumAndAverage.printSumNumbersDivisibleBySeven(1, 100);
                         aSumAndAverage.printSumSquares(1, 100);
                     }
-
+                }
 
             }
         }
