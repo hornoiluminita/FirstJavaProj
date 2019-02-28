@@ -4,10 +4,10 @@ public class Main {
 
    public static void main(String[] args) {
 
-       Calculator calc. =new Calculator();
+       Calculator calc = new Calculator();
        OperatiiLogice op = new OperatiiLogice();
        Dog rex = new Dog();
-       {
+
            rex.setNume("Rex");
            rex.setNume("Grivei");
            System.out.println(rex.getNume());
@@ -19,7 +19,7 @@ public class Main {
            System.out.println(rex.getRasa());
            rex.setCuloare("Negru");
            System.out.println(rex.getCuloare);
-       }
+
        Fetita alina = new Fetita();
        {
            alina.setNume("Alina");

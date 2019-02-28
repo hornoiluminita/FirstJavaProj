@@ -2,15 +2,15 @@ public class Calculator {
     int x = 7;
     int y = 8;
     int addition = x + y;
-            System.out.println(" The addition of " + x + " and " + y + "is: " + addition);
-            System.out.println("x+y ");}
+    { System.out.println("x+y ");}
     public int addition () {
         int result = x + y;
+        System.out.println(" The addition of " + x + " and " + y + "is: " + addition);
         return result;
     }
-    int divide = x / y;
+    int divide = x / y;{
             System.out.println(" x/y ");
-    {
+        {
         public int divide ()
         int result = x / y;
         return result;
