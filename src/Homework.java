@@ -79,7 +79,7 @@ public class Homework {
         int num = 8899;
         int i = 111;
 
-        for (i >= 8899) {
+        for (i <= 8899) {
             ++count;
         }
     }
