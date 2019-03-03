@@ -59,6 +59,19 @@ public class Homework {
                 System.out.println("Sum = " + sum);
                 System.out.println("Average is :" + sum / 50);
             }
-        }
+    public static void sumaverage () {
+        int num = 100, sum = 0;
+        int i = 1;
+        do{
+            System.out.println("Sum = " + sum);
+            i++;  sum += i;
+            System.out.println("Average is :" + sum / 50);
+        } while ( i <= num);
+
+    }
+
+    }
+
+
 
 
