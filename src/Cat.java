@@ -1,51 +1,27 @@
-public class Cat {
-    private String culoare;
-    private int varsta;
-    private float greutate;
+public class Cat extends Animal {
+
     private String rasa;
-    private String nume;
 
-    public void setNume(String nume) {
-        this.nume = nume;
+    public String getRasa() {
+        return rasa;
     }
 
-    public String getNume() {
-        return this.nume;
-    }
-
-    public void setVarsta(int varsta) {
-        this.varsta = varsta;
-    }
-
-    public int getVarsta() {
-        return this.varsta;
-    }
-
-    public void setGreutate() {
-        this.greutate = greutate;
-    }
-
-    public float getGreutate() {
-        return this.greutate;
-    }
-
-    public void String
-
-    setRasa() {
+    public void setRasa(String rasa) {
         this.rasa = rasa;
     }
 
-    public String getRasa() {
-        return this.rasa;
+    public void mananca () {
+        System.out.println("Momentan,mananca Wiskas");
+    }
+        public void toarce () {
+        System.out.println("Purr!");
+    }
+        public void alearga () {
+
+        System.out.println("Pisica alearga!");
+
+    }
     }
 
-    public void String
 
-    setculoare() {
-        this.culoare = culoare;
-        public String getCuloare () {
-            return this.culoare;
 
-        }
-    }
-}
