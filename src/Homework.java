@@ -1,112 +1,64 @@
 public class Homework {
     import java.util.Scanner;
 
-    public class Main {
+            public static void main(String[] args) {
+                System.out.println("3\n" + "Hello World!");
+            }
 
-        public static void main(String[] args) {
-            sum(1);
-            System.out.println("3\n" + "Hello World!");
-        }
-
-        //
+            //
 //        public static void countnumber (); {
 //
 //
 //            for (int i = 7; i < 10; i--) ;
 //            System.out.println(i);
 //
-        public static void sum (int i) {
-            int rezultat = 0;
-            while (i<=100) {
-                if (i % 2 != 0) {
-                    rezultat = rezultat + i;
-                }
-                i++;
-                System.out.println(rezultat);}
+//    public static void sum(int i) {
+//        int rezultat = 0;
+//        while (i <= 100) {
+//            if (i % 2 != 0) {
+//                rezultat = rezultat + i;
+//            }
+//            i++;
+//            System.out.println(rezultat);
+//        }
+            public static void sum ( int s){
 
-            i = 0;
-            while (i <= 100)
-            {
-                System.out.print(i + " ");}
-            public static void countnumber() {
+                int l = 0;
+                while (l <= 100) {
+                    System.out.print("s");
+                }
+            }
+            public static void countnumber () {
                 for (int i = 10; i > 0; i--) {
                     System.out.println("i = " + i);
                 }
             }
-            for(int PatternB = 0; PatternB <=10; PatternB++) { // outer loop Pattern B
-                for(int PatternBI = 9; PatternBI >= PatternB; PatternBI--) { //Inner Loop
-                    System.out.print("+");
-                }
-                System.out.println();
-            }
-            public static void sum () {
-                int sum = 0; // store the accumulated sum, init to 0
-                double average; // average in double
-                int lowerbound = 1; // the lower bound to sum
-                double upperbound = 100; // the upper bound to sum
-                for (int number = lowerbound; number <= upperbound; ++number) {
-                    sum += number; // same as "sum = sum + number"
-                }
-                // Compute average in double.
-                average = sum / upperbound;
-                System.out.println("The sum = " + sum);
-                System.out.println("The average = " + average);
-            }
-            public static void sum () {
-                int sum = 0; // store the accumulated sum, init to 0
-                double average; // average in double
-                int lowerbound = 1; // the lower bound to sum
-                double upperbound = 100; // the upper bound to sum
-                while{
-                    int number = lowerbound; number <= upperbound; ++number)
-                do {
 
-                    sum += number; // same as "sum = sum + number"
-                }
-                // Compute average in double.
-                average = sum / upperbound;
-                System.out.println("The sum = " + sum);
-                System.out.println("The average = " + average);
-            }
-                public static void sum () {
-                    int sum = 0; // store the accumulated sum, init to 0
-                    double average; // average in double
-                    int lowerbound = 1; // the lower bound to sum
-                    double upperbound = 100; // the upper bound to sum
-            do {
-                sum += number;
-                while{
-                    int number = lowerbound; number <= upperbound; ++number)
-                    average = sum / upperbound;
-                    System.out.println("The sum = " + sum);
-                    System.out.println("The average = " + average);
+            public static void printPattern () {
+
+                int i, j, k;
+
+                for (i = 1; i <= 7; i++) {
+                    for (j = 1; j <= i; ++j)
+                        System.out.print(j);
+
+                    for (k = 7 - i; k >= 1; k--)
+                        System.out.print("*");
+
+                    System.out.println("");
                 }
             }
-                    int count = 0;
-                    for (...; ...; ...) {17.......18.++count;
-                }
-                    public static void main(String[] args)
-                    {
-                        int upperBoundNumber = 100;
+            public static void sumandaverage () {
+                int num = 100, sum = 0;
 
-                        if (upperBoundNumber <= 0) {
-                            System.out.println("Error: upperbound less than 0!");
-                            return;
-                        }
-
-                        SumAndAverage aSumAndAverage = new SumAndAverage();
-                        aSumAndAverage.printSumNumbersUsingForLoop(upperBoundNumber);
-                        aSumAndAverage.printSumNumbersUsingDoWhileLoop(upperBoundNumber);
-                        aSumAndAverage.printSumNumbersUsingWhileDoLoop(upperBoundNumber);
-                        aSumAndAverage.printSumNumbersFromRange(111, 8899);
-                        aSumAndAverage.printSumOddNumbers(1, 100);
-                        aSumAndAverage.printSumNumbersDivisibleBySeven(1, 100);
-                        aSumAndAverage.printSumSquares(1, 100);
-                    }
+                for (int i = 1; i <= num; ++i) {
+                    // sum = sum + i;
+                    sum += i;
                 }
 
+                System.out.println("Sum = " + sum);
+                System.out.println("Average is :" + sum / 50);
             }
         }
-    }
 
-    }
+
