@@ -121,22 +121,17 @@ public class Homework {
     }
 
 
-    public class Exercise4 {
-        public static void main(String[] args) {
+        public static void average (String[] args) {
 
             int[] numbers = new int[]{20, 30, 25, 35, -16, 60, -100};
-            //calculate sum of all array elements
             int sum = 0;
             for(int i=0; i < numbers.length ; i++)
                 sum = sum + numbers[i];
-            //calculate average value
             double average = sum / numbers.length;
             System.out.println("Average value of the array elements is : " + average);
         }
-    }
 
-    public class Main {
-        public static void main(String[] args) {
+        public static void grid (String[] args) {
             int [][]a = new int[10][10];
             for(int i = 0; i < 10; i++)
             {
@@ -147,7 +142,7 @@ public class Homework {
                 System.out.println();
             }
         }
-    }
+
     public static boolean contains(int[] arr, int item) {
         for (int n : arr) {
             if (item == n) {
@@ -156,7 +151,7 @@ public class Homework {
         }
         return false;
     }
-    public static void main(String[] args) {
+    public static void specificvalue(String[] args) {
         int[] my_array1 = {
                 1789, 2035, 1899, 1456, 2013,
                 1458, 2458, 1254, 1472, 2365,
@@ -186,18 +181,13 @@ public class Homework {
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
 
         System.out.println("Original Array : "+Arrays.toString(my_array));
-
-        // Remove the second element (index->1, value->14) of the array
         int removeIndex = 1;
-
         for(int i = removeIndex; i < my_array.length -1; i++){
             my_array[i] = my_array[i + 1];
         }
-// We cannot alter the size of an array , after the removal, the last and second last element in the array will exist twice
         System.out.println("After removing the second element: "+Arrays.toString(my_array));
     }
-}
-    public static void main(String args[]){
+    public static void smallest (String args[]){
         int temp, size;
         int array[] = {10, 20, 25, 63, 96, 57};
         size = array.length;
@@ -214,8 +204,7 @@ public class Homework {
         System.out.println("2nd Smallest element of the array is:: "+array[0]);
     }
 import java.util.Arrays;
-public class Exercise8 {
-    public static void main(String[] args) {
+    public static void copyarray(String[] args) {
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
         int[] new_array = new int[10];
 
@@ -226,16 +215,10 @@ public class Exercise8 {
         }
         System.out.println("New Array: "+Arrays.toString(new_array));
     }
-}
 import java.util.Arrays;
-public class Exercise9 {
-
-    public static void main(String[] args) {
+    public static void insertelement(String[] args) {
 
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
-
-        // Insert an element in 3rd position of the array (index->2, value->5)
-
         int Index_position = 2;
         int newValue    = 5;
 
@@ -247,10 +230,8 @@ public class Exercise9 {
         my_array[Index_position] = newValue;
         System.out.println("New Array: "+Arrays.toString(my_array));
     }
-}
-import java.util.Arrays;
-public class Exercise10 {
 
+import java.util.Arrays;
     static int max;
     static int min;
 
@@ -274,17 +255,15 @@ public class Exercise10 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void reversearray(String[] args) {
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
         max_min(my_array);
         System.out.println(" Original Array: "+Arrays.toString(my_array));
         System.out.println(" Maximum value for the above array = " + max);
         System.out.println(" Minimum value for the above array = " + min);
     }
-}
 import java.util.Arrays;
-public class Exercise11 {
-    public static void main(String[] args) {
+    public static void duplicateinteger(String[] args) {
         int[] my_array1 = {
                 1789, 2035, 1899, 1456, 2013,
                 1458, 2458, 1254, 1472, 2365,
@@ -298,8 +277,7 @@ public class Exercise11 {
         System.out.println("Reverse array : " + Arrays.toString(my_array1));
     }
     import java.util.Arrays;
-    public class Exercise12 {
-        public static void main(String[] args)
+        public static void duplicatestring (String[] args)
         {
             int[] my_array = {1, 2, 5, 5, 6, 6, 7, 2};
 
@@ -314,9 +292,7 @@ public class Exercise11 {
                 }
             }
         }
-    }
-    public class Exercise13 {
-        public static void main(String[] args)
+        public static void twoarrays(String[] args)
         {
             String[] my_array = {"bcd", "abd", "jude", "bcd", "oiu", "gzw", "oiu"};
 
@@ -331,14 +307,12 @@ public class Exercise11 {
                 }
             }
         }
-    }
-    import java.util.*;
-    public class Exercise14 {
+    import java.util.Arrays;
         public static void main(String[] args)
         {
-            String[] array1 = {"Python", "JAVA", "PHP", "C#", "C++", "SQL"};
+            String[] array1 = {"GRI", "PORTOCALIU", "MOV", "ROSU", "ALB"};
 
-            String[] array2 = {"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA"};
+            String[] array2 = { "MARO", "NEGRU", "ALB", "MOV", "ROZ", "VERDE"};
 
             System.out.println("Array1 : "+Arrays.toString(array1));
             System.out.println("Array2 : "+Arrays.toString(array2));
@@ -356,10 +330,10 @@ public class Exercise11 {
                 }
             }
 
-            System.out.println("Common element : "+(set));     //OUTPUT : [THREE, FOUR, FIVE]
+            System.out.println("Common element : "+(set));
         }
     }
-}
+
 
 
 
