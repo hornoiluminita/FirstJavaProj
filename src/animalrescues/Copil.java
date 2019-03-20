@@ -1,3 +1,5 @@
+package animalrescues;
+
 public class Copil {
     int varsta;
     float greutate;

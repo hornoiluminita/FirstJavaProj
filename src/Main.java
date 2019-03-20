@@ -1,3 +1,7 @@
+import animalrescues.*;
+import animalrescues.calculator.Calculator;
+import animalrescues.calculator.OperatiiLogice;
+
 import java.util.Scanner;
 
 public class Main {

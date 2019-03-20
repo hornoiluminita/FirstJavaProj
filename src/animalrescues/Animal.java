@@ -1,3 +1,5 @@
+package animalrescues;
+
 public class Animal {
     private String nume;
     private float greutate;

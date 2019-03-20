@@ -1,3 +1,5 @@
+package animalrescues;
+
 public class Cat extends Animal {
 
     private String rasa;

@@ -1,3 +1,5 @@
+package animalrescues.calculator;
+
 public class Calculator {
     int x = 7;
     int y = 8;
@@ -8,6 +10,12 @@ public class Calculator {
         System.out.println(" The addition of " + x + " and " + y + "is: " + addition);
         return result;
     }
+    public int addition (int x,int y,int z) {
+        return x + y + z;
+    }
+    public int addition (double x, int y) {
+        return x + y;
+    }
     int divide = x / y;{
             System.out.println(" x/y ");
         {
@@ -15,7 +23,12 @@ public class Calculator {
         int result = x / y;
         return result;
     }
-
+ public int divide (int x,int y,int z){
+            return x / y / z;
+        }
+ public int divide (int x,double y){
+            return x / y;
+        }
 
     int res = scadere(2, 3);
             System.out.println(res);
@@ -42,18 +55,37 @@ public  int scadere ( int primulnumar, int aldoileanumar){
         int resultat = primulnumar - aldoileanumar;
         return resultat;
         }
-
+public int scadere (int primulnumar,double aldoileanumar){
+    int resultat = primulnumar - aldoileanumar;
+    return resultat;}
+    public int scadere (double primulnumar,double aldoileanumar){
+        double resultat = primulnumar - aldoileanumar;
+        return resultat; }
 public  int inmultire ( int primulnumar, int aldoileanumar){
 
         int resultat2 = primulnumar * aldoileanumar;
         return resultat2;
         }
+    public  int inmultire ( int primulnumar, int aldoileanumar,int altreileanumar){
 
+        int resultat2 = primulnumar * aldoileanumar+altreileanumar;
+        return resultat2;
+    }
+    public  int inmultire ( double primulnumar, int aldoileanumar){
+
+        int resultat2 = primulnumar * aldoileanumar;
+        return resultat2;
+    }
 
 public int impartire ( int primulnumar, int aldoileanumar){
         int resultat3 = primulnumar / aldoileanumar;
         }
-
+    public int impartire ( int primulnumar, int aldoileanumar,int altreileanumar){
+        int resultat3 = primulnumar / aldoileanumar/altreileanumar;
+    }
+    public int impartire ( int primulnumar, double aldoileanumar){
+        int resultat3 = primulnumar / aldoileanumar;
+    }
 public  void averageThreeNumbers(){
         java.util.Scanner scan = new Scanner(System.in);
         System.out.print("Input the first number: ");

@@ -1,3 +1,5 @@
+package animalrescues.calculator;
+
 public class Grafice {
     public String printAString() {
         String result = "Hello World";

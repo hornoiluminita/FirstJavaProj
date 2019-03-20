@@ -1,3 +1,5 @@
+package animalrescues;
+
 public class Doctor extends Adult {
 
     String experienta;

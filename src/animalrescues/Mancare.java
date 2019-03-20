@@ -1,3 +1,5 @@
+package animalrescues;
+
 public class Mancare {
     int cantitate;
     String gust;
